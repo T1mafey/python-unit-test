@@ -3,7 +3,7 @@ pspipeline{
     stages{
         stage("build"){
             steps{
-                sh "docker build . -t T1mafey/python-unit-test :latest"
+                sh "docker build . -t T1mafey/python-unit-test:latest"
             }
         }
     }
